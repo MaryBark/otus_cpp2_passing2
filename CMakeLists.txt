@@ -10,7 +10,7 @@ project(otusCPP2_passing2 VERSION ${PROJECT_VESRION})
 
 # Подключаем библиотеки и пишем какие копмоненты нужны
 find_package(Boost COMPONENTS unit_test_framework REQUIRED)
-find_package(GTest COMPONENTS unit_test_framework REQUIRED)
+find_package(GTest)
 
 # создание конфигурационного файла
 configure_file(version.h.in version.h)
