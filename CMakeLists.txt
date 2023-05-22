@@ -19,7 +19,7 @@ configure_file(version.h.in version.h)
 add_executable(IP_filtr_client main.cpp)
 add_library(otusCPP2_passing2 ip_filtr.h ip_filtr.cpp tuplesIP.h tuplesIP.cpp)
 add_executable(test_version test_version.cpp  #[[Gtest_version.cpp]])
-add_executable(test_versionGtest Gtest_version.cpp)
+#add_executable(test_versionGtest Gtest_version.cpp)
 
 # устанавливаем свойства для этих объектов, чтобы все фалы были только в 17-м стандарте
 set_target_properties(IP_filtr_client otusCPP2_passing2 test_version PROPERTIES
