@@ -1,0 +1,1 @@
+# otus_cpp2_passing2
